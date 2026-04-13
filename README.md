@@ -1,4 +1,4 @@
-# AI Study Question Generator
+# Simple Coffee - Full-Stack E-commerce Platform
 
 ## Features
 - Upload PDF/image → AI generate Q&A pairs
