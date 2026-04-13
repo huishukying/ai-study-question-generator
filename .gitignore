@@ -1,18 +1,10 @@
 .env
-uploads/
-
-.streamlit/
 
 __pycache__/
 *.pyc
-*.pyo
+
+.DS_Store
+
+.streamlit/
 
 uploads/
-*.jpg
-*.jpeg
-*.png
-*.pdf
-
-.vscode/
-.idea/
-.DS_Store
