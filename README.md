@@ -12,7 +12,12 @@
 - Tesseract OCR
 
 ## How to use
-pip install -r requirements.txt
+```bash
+git clone https://github.com/huishukying/ai-study-question-generator.git && \
+cd ai-study-question-generator && \
+pip install -r requirements.txt && \
+brew install tesseract && \
+echo "API_KEY=your_hku_azure_key_here" > .env && \
 streamlit run app.py
 
 ## Screenshots
