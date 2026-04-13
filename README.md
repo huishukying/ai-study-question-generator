@@ -18,7 +18,8 @@ cd ai-study-question-generator && \
 pip install -r requirements.txt && \
 brew install tesseract && \
 echo "API_KEY=your_hku_azure_key_here" > .env && \
-streamlit run app.py
+streamlit run app.py 
+```
 
 ## Screenshots
 <img src="screenshots/study_helper_1.jpg" width="600">
