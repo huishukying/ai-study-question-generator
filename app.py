@@ -122,7 +122,7 @@ if uploaded_file is not None:
                     st.divider()
                 
             except json.JSONDecodeError as e:
-                st.warning(f"Failed to parse response. Showing raw output:")  
+                st.warning(f"Failed to parse response. Showing raw output:\n\nError: {str(e)}")
                 st.code(response)
     
             st.markdown("Good luck for your exams!")
